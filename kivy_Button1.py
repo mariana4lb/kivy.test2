@@ -7,4 +7,4 @@ class MinhaApp(App):
     
 
 if __name__== "__main__":
-    MinhaAPP().run()
+    MinhaApp().run()
