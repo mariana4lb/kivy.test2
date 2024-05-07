@@ -1,6 +1,9 @@
+from kivy.app import App
+from kivy.uix.label import Label
+
 class RotuloApp(App):
     def build(self):
-        layout = BoxLayout(oruentation='vertical')
+        layout =BaseException(oruentation='vertical')
         self.lab1 = Label(
             text='SENAI', color=[1, 0, 0, 1],
             font_size=40, bold=True
